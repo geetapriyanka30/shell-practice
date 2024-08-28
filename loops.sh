@@ -2,9 +2,9 @@
 
 Number=$1
 
-if [ number -ge 20 ]
+if [ Number -ge 20 ]
 then 
-   echo "the numner $number: is greather than 20"
+   echo "given number $Number: is greather than 20"
 else
-   echo "the numner $number: is less than than 20"
+   echo "the numner $Number: is less than than 20"
 fi
