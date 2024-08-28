@@ -2,7 +2,7 @@
 
 Number=$1
 
-if [ Number -ge 20 ]
+if [ Number -gt 20 ]
 then 
    echo "given number $Number: is greather than 20"
 else
