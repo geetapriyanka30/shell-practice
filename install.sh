@@ -5,5 +5,5 @@ then
   echo "please run with root previlages"
   exit 1
 fi
-dnf list installed git
+echo "dnf list installed git"
 
