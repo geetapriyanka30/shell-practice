@@ -5,4 +5,4 @@ Validate(){
 
 dnf list installed git
 
-validate $?
+Validate $?
