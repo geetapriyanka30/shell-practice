@@ -1,6 +1,6 @@
 userid=$(id -u)
 
-if[ $userid -ne 0 ]
+if [ $userid -ne 0 ]
 then
    echo "install sql with root privelages"
    exit 1
